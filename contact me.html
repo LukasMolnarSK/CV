@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contac Me</title>
+</head>
+
+<body>
+  <h1>Contact details</h1>
+  <p>Phone:+421 904 988 983</p>
+  <p>email: 29lukas01@gmail.com</p>
+  <hr>
+
+  <form action="mailto:29lukas01@gmail.com" method="post" enctype="text/plain">
+    <!--form alebo forma je element pomocou ktorého dáme prehliadacu vediet o obsahu interaktívnych ovládacích prvkov
+  napriíklad vlozenie mena datumu narodenia alebo niakeho tlacidla ako napr odoslat-->
+    <label>Your Name:</label>
+    <!--label je nadpis interaktívnej polozky v tomto prípade príde meno-->
+    <input type="text" name="Your Name" value=""><br>
+    <!--input za labelom je na vytvorenie interaktívnych tlačidiel type=text znamená textové pole submit odoslať atď viac
+     v imputy.html ale je ich ešte viac-->
+     <label>Your Email:</label>
+    <input type="email" name="Your Email" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="Your Message" rows="10" cols="30"></textarea><br>
+    <!--textarea je textové pole kde sa dá normal písať rows a cols nám hovoria o počiatočnom tvre tohto poľa pričom
+  sa toto pole dá meniť velkostne nie ako pri inpute cez text tam sa neda-->
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
